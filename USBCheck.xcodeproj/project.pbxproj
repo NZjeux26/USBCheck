@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		21ACE73C2CDDBDA80075B526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21ACE7222CDDBDA50075B526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21ACE7292CDDBDA50075B526;
+			remoteInfo = USBCheck;
+		};
+		21ACE7462CDDBDA80075B526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21ACE7222CDDBDA50075B526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21ACE7292CDDBDA50075B526;
+			remoteInfo = USBCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21ACE72A2CDDBDA50075B526 /* USBCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USBCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21ACE73B2CDDBDA80075B526 /* USBCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USBCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21ACE7452CDDBDA80075B526 /* USBCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USBCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		21ACE72C2CDDBDA50075B526 /* USBCheck */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = USBCheck;
+			sourceTree = "<group>";
+		};
+		21ACE73E2CDDBDA80075B526 /* USBCheckTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = USBCheckTests;
+			sourceTree = "<group>";
+		};
+		21ACE7482CDDBDA80075B526 /* USBCheckUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = USBCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21ACE7272CDDBDA50075B526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21ACE7382CDDBDA80075B526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21ACE7422CDDBDA80075B526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21ACE7212CDDBDA50075B526 = {
+			isa = PBXGroup;
+			children = (
+				21ACE72C2CDDBDA50075B526 /* USBCheck */,
+				21ACE73E2CDDBDA80075B526 /* USBCheckTests */,
+				21ACE7482CDDBDA80075B526 /* USBCheckUITests */,
+				21ACE72B2CDDBDA50075B526 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21ACE72B2CDDBDA50075B526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21ACE72A2CDDBDA50075B526 /* USBCheck.app */,
+				21ACE73B2CDDBDA80075B526 /* USBCheckTests.xctest */,
+				21ACE7452CDDBDA80075B526 /* USBCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21ACE7292CDDBDA50075B526 /* USBCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21ACE74F2CDDBDA80075B526 /* Build configuration list for PBXNativeTarget "USBCheck" */;
+			buildPhases = (
+				21ACE7262CDDBDA50075B526 /* Sources */,
+				21ACE7272CDDBDA50075B526 /* Frameworks */,
+				21ACE7282CDDBDA50075B526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				21ACE72C2CDDBDA50075B526 /* USBCheck */,
+			);
+			name = USBCheck;
+			packageProductDependencies = (
+			);
+			productName = USBCheck;
+			productReference = 21ACE72A2CDDBDA50075B526 /* USBCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21ACE73A2CDDBDA80075B526 /* USBCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21ACE7522CDDBDA80075B526 /* Build configuration list for PBXNativeTarget "USBCheckTests" */;
+			buildPhases = (
+				21ACE7372CDDBDA80075B526 /* Sources */,
+				21ACE7382CDDBDA80075B526 /* Frameworks */,
+				21ACE7392CDDBDA80075B526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21ACE73D2CDDBDA80075B526 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				21ACE73E2CDDBDA80075B526 /* USBCheckTests */,
+			);
+			name = USBCheckTests;
+			packageProductDependencies = (
+			);
+			productName = USBCheckTests;
+			productReference = 21ACE73B2CDDBDA80075B526 /* USBCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21ACE7442CDDBDA80075B526 /* USBCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21ACE7552CDDBDA80075B526 /* Build configuration list for PBXNativeTarget "USBCheckUITests" */;
+			buildPhases = (
+				21ACE7412CDDBDA80075B526 /* Sources */,
+				21ACE7422CDDBDA80075B526 /* Frameworks */,
+				21ACE7432CDDBDA80075B526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21ACE7472CDDBDA80075B526 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				21ACE7482CDDBDA80075B526 /* USBCheckUITests */,
+			);
+			name = USBCheckUITests;
+			packageProductDependencies = (
+			);
+			productName = USBCheckUITests;
+			productReference = 21ACE7452CDDBDA80075B526 /* USBCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21ACE7222CDDBDA50075B526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					21ACE7292CDDBDA50075B526 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					21ACE73A2CDDBDA80075B526 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 21ACE7292CDDBDA50075B526;
+					};
+					21ACE7442CDDBDA80075B526 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 21ACE7292CDDBDA50075B526;
+					};
+				};
+			};
+			buildConfigurationList = 21ACE7252CDDBDA50075B526 /* Build configuration list for PBXProject "USBCheck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21ACE7212CDDBDA50075B526;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 21ACE72B2CDDBDA50075B526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21ACE7292CDDBDA50075B526 /* USBCheck */,
+				21ACE73A2CDDBDA80075B526 /* USBCheckTests */,
+				21ACE7442CDDBDA80075B526 /* USBCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21ACE7282CDDBDA50075B526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21ACE7392CDDBDA80075B526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21ACE7432CDDBDA80075B526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21ACE7262CDDBDA50075B526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21ACE7372CDDBDA80075B526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21ACE7412CDDBDA80075B526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21ACE73D2CDDBDA80075B526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21ACE7292CDDBDA50075B526 /* USBCheck */;
+			targetProxy = 21ACE73C2CDDBDA80075B526 /* PBXContainerItemProxy */;
+		};
+		21ACE7472CDDBDA80075B526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21ACE7292CDDBDA50075B526 /* USBCheck */;
+			targetProxy = 21ACE7462CDDBDA80075B526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21ACE74D2CDDBDA80075B526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21ACE74E2CDDBDA80075B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		21ACE7502CDDBDA80075B526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = USBCheck/USBCheck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"USBCheck/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HomeLab.USBCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		21ACE7512CDDBDA80075B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = USBCheck/USBCheck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"USBCheck/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HomeLab.USBCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		21ACE7532CDDBDA80075B526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HomeLab.USBCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USBCheck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/USBCheck";
+			};
+			name = Debug;
+		};
+		21ACE7542CDDBDA80075B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HomeLab.USBCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USBCheck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/USBCheck";
+			};
+			name = Release;
+		};
+		21ACE7562CDDBDA80075B526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HomeLab.USBCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = USBCheck;
+			};
+			name = Debug;
+		};
+		21ACE7572CDDBDA80075B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HomeLab.USBCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = USBCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21ACE7252CDDBDA50075B526 /* Build configuration list for PBXProject "USBCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21ACE74D2CDDBDA80075B526 /* Debug */,
+				21ACE74E2CDDBDA80075B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21ACE74F2CDDBDA80075B526 /* Build configuration list for PBXNativeTarget "USBCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21ACE7502CDDBDA80075B526 /* Debug */,
+				21ACE7512CDDBDA80075B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21ACE7522CDDBDA80075B526 /* Build configuration list for PBXNativeTarget "USBCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21ACE7532CDDBDA80075B526 /* Debug */,
+				21ACE7542CDDBDA80075B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21ACE7552CDDBDA80075B526 /* Build configuration list for PBXNativeTarget "USBCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21ACE7562CDDBDA80075B526 /* Debug */,
+				21ACE7572CDDBDA80075B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21ACE7222CDDBDA50075B526 /* Project object */;
+}
